@@ -131,3 +131,37 @@ function paperwork(n, m) {
 }
 
 
+Write a function that returns a string in which firstname is swapped with last name.
+
+Example(Input --> Output)
+
+"john McClane" --> "McClane john"
+
+Solution
+
+function nameShuffler(str){
+  var nameArray = str.split(" ");
+  var answer = nameArray[1] + " " + nameArray[0];
+  answer
+  return answer;
+  //Shuffle It
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
